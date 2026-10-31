@@ -143,6 +143,8 @@ footer div { max-width: 1040px; margin: 0 auto; display: flex; justify-content: 
   .row, .row.num, .row.crit { grid-template-columns: 1fr; gap: 10px; }
   .row.num { grid-template-columns: 64px 1fr; }
   .row.num p { grid-column: 1 / -1; }
+  .row.num .adv { grid-column: 2; margin-top: 4px; }
+  .row.num > div:empty { display: none; }
   .num .n { font-size: 44px; }
   .row.crit { grid-template-columns: 44px 1fr; }
   .row.crit p { grid-column: 1 / -1; }
@@ -315,7 +317,7 @@ details.refs-d[open] summary::after { content: "\2212"; }
     <p class="est">Estimativa: cerca de 3 meses por fase, variando de criança para criança.</p>
     <div class="rows">
       <div class="row num"><span class="n">01</span><div><h3>Com boia</h3><p style="margin-top:8px">A criança ainda utiliza a boia.</p></div><div class="adv"><b>Para avançar</b><p>Entende o que o professor comunica e faz com mais facilidade. Bate a perna em apneia (prendendo a respiração), tira a cabeça, pega o ar e volta para a água.</p></div></div>
-      <div class="row num"><span class="n">02</span><div><h3>Transição</h3><p style="margin-top:8px">Saímos da boia e passamos a um colete com cinta na região da barriga, que dá uma leve ajuda de sustentação.</p></div><div class="adv"><b>Para avançar</b><p>Domina a técnica de sustentar, pegar o ar e voltar.</p></div></div>
+      <div class="row num"><span class="n">02</span><div><h3>Transição</h3><p style="margin-top:8px">Saímos da boia e passamos a um colete com cinta na região da barriga, que dá uma leve ajuda de sustentação.</p></div><div class="adv"><b>Para avançar</b><p>A criança sente confiança para nadar sem material e consegue atravessar a piscina pequena pegando o ar e colocando a cabeça dentro da água.</p></div></div>
       <div class="row num"><span class="n">03</span><div><h3>Sem boia e sem colete</h3><p style="margin-top:8px">A criança nada sem nenhum material de facilitação.</p></div><div></div></div>
     </div>
   </div>
